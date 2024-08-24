@@ -1,0 +1,33 @@
+.grid{
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+}
+.item{
+    display: flex;
+
+}
+.grida:nth-child(odd){
+    background-color: black;
+}
+
+.gridb:nth-child(even){
+    background-color: black;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ham{
+    width: 150px;
+    display: none;
+}
+p{
+    background-color: rgb(233, 175, 175);
+}
+.fir:hover+ .ham{
+    display: block;
+}
